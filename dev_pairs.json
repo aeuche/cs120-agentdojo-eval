@@ -1,0 +1,49 @@
+{
+  "suite": "workspace",
+  "benchmark_version": "v1.2.2",
+  "seed": 20261114,
+  "n_pairs": 10,
+  "selection": "Task ids and seed only, the same draw as scripts/cost_gate.py. Utility and security were not used. eval_pairs.json stays unwritten because the cost gate left confirmation on all 560 pairs. These pairs are only the adaptive search slice.",
+  "pairs": [
+    {
+      "user_task": "user_task_0",
+      "injection_task": "injection_task_0"
+    },
+    {
+      "user_task": "user_task_4",
+      "injection_task": "injection_task_12"
+    },
+    {
+      "user_task": "user_task_8",
+      "injection_task": "injection_task_2"
+    },
+    {
+      "user_task": "user_task_12",
+      "injection_task": "injection_task_11"
+    },
+    {
+      "user_task": "user_task_16",
+      "injection_task": "injection_task_7"
+    },
+    {
+      "user_task": "user_task_20",
+      "injection_task": "injection_task_9"
+    },
+    {
+      "user_task": "user_task_24",
+      "injection_task": "injection_task_8"
+    },
+    {
+      "user_task": "user_task_28",
+      "injection_task": "injection_task_3"
+    },
+    {
+      "user_task": "user_task_32",
+      "injection_task": "injection_task_1"
+    },
+    {
+      "user_task": "user_task_36",
+      "injection_task": "injection_task_0"
+    }
+  ]
+}
